@@ -1,0 +1,40 @@
+Base path: 'C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data', plugins path 'C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/PlaybackEngines'
+Cmd: initializeCompiler
+
+Cmd: compileSnippet
+  insize=858 file=Assets/Engine/Shaders/PBS/Custom/PBS/Role pass=FORWARD cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR UNITY_PASS_FORWARDBASE uKW= dKW=_ALPHA_TEST _ETX_EFFECT _SHADOW_MAP UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Vertex platform=d3d11 reqs=227 mask=6 start=54  error: 1 plat 25 at Assets/Engine/Shaders/Common/Lighting.hlsl(60): Cannot concatenate '.' and 'AmbientDiffuse'
+  error: 1 plat 25 at Assets/Engine/Shaders/Common/Lighting.hlsl(96): Cannot concatenate '.' and 'Shadow'
+  error: 1 plat 25 at Assets/Engine/Shaders/Common/Lighting.hlsl(155): Cannot concatenate '.' and 'DirectDiffuseNoGI'
+  error: 1 plat 25 at Assets/Engine/Shaders/Common/Lighting.hlsl(214): Cannot concatenate '.' and 'DirectLighting'
+  error: 1 plat 25 at Assets/Engine/Shaders/Common/Lighting.hlsl(218): Cannot concatenate '.' and 'DirectDiffuse'
+  error: 1 plat 25 at Assets/Engine/Shaders/Common/Lighting.hlsl(219): Cannot concatenate '.' and 'DirectSpecular'
+  error: 1 plat 25 at Assets/Engine/Shaders/Common/Lighting.hlsl(222): Cannot concatenate '.' and 'DirectLightingColor'
+  error: 1 plat 25 at Assets/Engine/Shaders/Common/Lighting.hlsl(237): Cannot concatenate '.' and 'CubeMipmap'
+  error: 1 plat 25 at Assets/Engine/Shaders/Common/Lighting.hlsl(244): Cannot concatenate '.' and 'ImageBasedReflectionLighting'
+  error: 1 plat 25 at Assets/Engine/Shaders/Common/Lighting.hlsl(310): Cannot concatenate '.' and 'LookupDiffuseSpec'
+  error: 1 plat 4 at Assets/Engine/Shaders/Common/Lighting.hlsl(318): implicit truncation of vector type
+  error: 1 plat 25 at Assets/Engine/Shaders/Common/Lighting.hlsl(344): Cannot concatenate '.' and 'SpecLevel'
+  error: 1 plat 25 at Assets/Engine/Shaders/Common/Lighting.hlsl(409): Cannot concatenate '.' and 'DirectDiffuse'
+  error: 1 plat 25 at Assets/Engine/Shaders/Common/Lighting.hlsl(410): Cannot concatenate '.' and 'DirectSpecular'
+  error: 1 plat 25 at Assets/Engine/Shaders/Common/Lighting.hlsl(412): Cannot concatenate '.' and 'DirectLightingColor'
+ ok=1 outsize=1674
+
+Cmd: compileSnippet
+  insize=858 file=Assets/Engine/Shaders/PBS/Custom/PBS/Role pass=FORWARD cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR UNITY_PASS_FORWARDBASE uKW=_ALPHA_TEST dKW=_ETX_EFFECT _SHADOW_MAP UNITY_NO_DXT5nm UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 UNITY_UNIFIED_SHADER_PRECISION_MODEL flags=0 lang=3 type=Vertex platform=d3d11 reqs=227 mask=6 start=54  error: 1 plat 25 at Assets/Engine/Shaders/Common/Lighting.hlsl(60): Cannot concatenate '.' and 'AmbientDiffuse'
+  error: 1 plat 25 at Assets/Engine/Shaders/Common/Lighting.hlsl(96): Cannot concatenate '.' and 'Shadow'
+  error: 1 plat 25 at Assets/Engine/Shaders/Common/Lighting.hlsl(155): Cannot concatenate '.' and 'DirectDiffuseNoGI'
+  error: 1 plat 25 at Assets/Engine/Shaders/Common/Lighting.hlsl(214): Cannot concatenate '.' and 'DirectLighting'
+  error: 1 plat 25 at Assets/Engine/Shaders/Common/Lighting.hlsl(218): Cannot concatenate '.' and 'DirectDiffuse'
+  error: 1 plat 25 at Assets/Engine/Shaders/Common/Lighting.hlsl(219): Cannot concatenate '.' and 'DirectSpecular'
+  error: 1 plat 25 at Assets/Engine/Shaders/Common/Lighting.hlsl(222): Cannot concatenate '.' and 'DirectLightingColor'
+  error: 1 plat 25 at Assets/Engine/Shaders/Common/Lighting.hlsl(237): Cannot concatenate '.' and 'CubeMipmap'
+  error: 1 plat 25 at Assets/Engine/Shaders/Common/Lighting.hlsl(244): Cannot concatenate '.' and 'ImageBasedReflectionLighting'
+  error: 1 plat 25 at Assets/Engine/Shaders/Common/Lighting.hlsl(310): Cannot concatenate '.' and 'LookupDiffuseSpec'
+  error: 1 plat 4 at Assets/Engine/Shaders/Common/Lighting.hlsl(318): implicit truncation of vector type
+  error: 1 plat 25 at Assets/Engine/Shaders/Common/Lighting.hlsl(344): Cannot concatenate '.' and 'SpecLevel'
+  error: 1 plat 25 at Assets/Engine/Shaders/Common/Lighting.hlsl(409): Cannot concatenate '.' and 'DirectDiffuse'
+  error: 1 plat 25 at Assets/Engine/Shaders/Common/Lighting.hlsl(410): Cannot concatenate '.' and 'DirectSpecular'
+  error: 1 plat 25 at Assets/Engine/Shaders/Common/Lighting.hlsl(412): Cannot concatenate '.' and 'DirectLightingColor'
+ ok=1 outsize=1674
+
+Cmd: shutdown
